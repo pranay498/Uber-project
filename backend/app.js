@@ -1,17 +1,15 @@
-import dotenv from "dotenv";
-dotenv.config();
 import express from "express";
 import cors from "cors";
 
-const app =express();
+const app = express();
 
+// Middlewares
 app.use(cors());
+app.use(express.json());
 
+// Test route
+app.get("/", (req, res) => {
+  res.send("Hello World 🌍");
+});
 
-app .get ("/",(req,res)=>{
-    res.send("hello world");
-})
-
-app .listen(8000,()=>{
-    console.log("server is running on port 8000");
-})
+export default app;
