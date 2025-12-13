@@ -8,7 +8,7 @@ import logger from "./utils/logger.js";
 
 const port = process.env.PORT || 3000;
 
-// Create HTTP server
+
 const server = http.createServer(app);
 
 const startServer = async () => {
@@ -23,7 +23,7 @@ const startServer = async () => {
     });
   } catch (error) {
     logger.error("❌ Failed to connect to Database:", error.message);
-    process.exit(1); // Exit process if DB connection fails
+    process.exit(1); 
   }
 };
 
