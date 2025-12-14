@@ -1,6 +1,7 @@
 import { asyncHandler } from "../utils/asyncHandler.js";
 import { registerUserService } from "../services/user.services.js";
 import { loginUserService } from "../services/user.services.js";
+import BlacklistToken from "../models/blacklistToken.model.js"
 import logger from "../utils/logger.js";
 
 export const registerUser = asyncHandler(async (req, res) => {
@@ -29,7 +30,6 @@ export const registerUser = asyncHandler(async (req, res) => {
     });
 });
 
-
 export const loginUser = asyncHandler(async (req, res) => {
   const { email, password } = req.body;
   const user = await loginUserService({ email, password });
@@ -55,6 +55,28 @@ export const loginUser = asyncHandler(async (req, res) => {
     });
 });
 
+export const logoutUser = asyncHandler(async (req, res) => {
+  res.clearCookie("token", {
+      httpOnly: true,
+      sameSite: "strict",
+      secure: process.env.NODE_ENV === "production",
+    })
+    .status(200)
+    .json({
+      success: true,
+      message: "Logged out successfully",
+    });
+
+    const token = req.cookies.token || req.headers.authorization?.split(""[1])
+
+    if(token){
+        await BlacklistToken.create({token});
+    }
+    else{
+        logger.warn("No token found to blacklist on logout")
+    }
+  logger.info(`👋 User logged out`);
+});
 
 export const getProfile = asyncHandler(async(req,res)=>{
     res.status(200).json({
@@ -62,3 +84,4 @@ export const getProfile = asyncHandler(async(req,res)=>{
         user:req.user,      
     })
 })
+

@@ -1,16 +1,17 @@
 import express from "express";
 import { validate } from "../middlewares/validate.js";
-import { registerSchema} from "../validation/userValidaton.js";
-import { registerUser,loginUser, getProfile } from "../controllers/user.controller.js";
-import { loginSchema } from "../validation/userValidaton.js";
-import { protectRoute } from "../middlewares/auth.middleware.js";
+import { registerCaptainSchema ,captainLoginSchema } from "../validation/captainValidation.js";
+import { registerUser,loginUser, getProfile, logoutUser } from "../controllers/user.controller.js";
+import { authMiddleware } from "../middlewares/authMiddleware.js";
 
 const router = express.Router();
 
-router.post("/register", validate(registerSchema), registerUser);
+router.post("/register", validate(registerCaptainSchema), registerUser);
 
-router.post("/login", validate(loginSchema), loginUser);
+router.post("/login", validate(captainLoginSchema), loginUser);
 
-router.get("/profile",protectRoute, getProfile)
+router.get("/profile",authMiddleware, getProfile)
+
+router.post("logout",authMiddleware , logoutUser);
 
 export default router;
