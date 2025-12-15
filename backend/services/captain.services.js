@@ -1,7 +1,9 @@
 import Captain from "../models/captain.model.js";
-import generateToken from "../utils/generateToken.js";
+import {generateCaptainToken} from "../utils/generateToken.js";
+import logger from "../utils/logger.js";
 
 export const registerCaptainService = async (data) => {
+  console.log("📦 Captain data received:", data);
   const { fullname, email, password, vehicle } = data;
 
   if (!fullname?.firstname || !fullname?.lastname || !email || !password || !vehicle) {
@@ -20,13 +22,13 @@ export const registerCaptainService = async (data) => {
   const captain = await Captain.create(data);
   logger.info(`✅ Captain registered: ${email}`);
 
-  const token = generateToken(captain._id);
+   const token = generateCaptainToken(captain);
 
   return {
     id: captain._id,
     fullname: captain.fullname,
     email: captain.email,
-    token,
+    token
   };
 };
 
@@ -45,7 +47,8 @@ export const loginCaptainService = async ({ email, password }) => {
     throw error;
   }
 
-  const token = generateToken(captain._id);
+  const token = generateCaptainToken(captain);
+
   logger.info(`✅ Captain logged in: ${email}`);
 
   return {

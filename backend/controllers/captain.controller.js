@@ -3,14 +3,14 @@ import logger from "../utils/logger.js";
 import { registerCaptainService,loginCaptainService,logoutCaptainService } from "../services/captain.services.js";
 
 
-export const registerCaptain = asyncHandler(async (req, res) => {
+  export const registerCaptain = asyncHandler(async (req, res) => {
   const captain = await registerCaptainService(req.body);
 
   res.cookie("token", captain.token, {
     httpOnly: true,
     secure: process.env.NODE_ENV === "production",
     sameSite: "strict",
-    maxAge: 7 * 24 * 60 * 60 * 1000, // 7 days
+    maxAge: 7 * 24 * 60 * 60 * 1000,
   });
 
   logger.info(`🧑‍✈️ Captain registered: ${captain.email}`);
@@ -18,9 +18,15 @@ export const registerCaptain = asyncHandler(async (req, res) => {
   res.status(201).json({
     success: true,
     message: "Captain registered successfully",
-    captain,
+    captain: {
+      id: captain.id,
+      fullname: captain.fullname,
+      email: captain.email,
+    },
+    captainToken: captain.token,
   });
 });
+
 
 export const loginCaptain = asyncHandler(async (req, res) => {
   const captain = await loginCaptainService(req.body);
@@ -37,7 +43,12 @@ export const loginCaptain = asyncHandler(async (req, res) => {
   res.status(200).json({
     success: true,
     message: "Captain logged in successfully",
-    captain,
+    captain: {
+      id: captain.id,
+      fullname: captain.fullname,
+      email: captain.email,
+    },
+    captainToken: captain.token,
   });
 });
 

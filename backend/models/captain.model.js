@@ -69,15 +69,11 @@ const captainSchema = new mongoose.Schema({
   },
 });
 
-captainSchema.pre("save", async function (next) {
-  if (!this.isModified("password")) return next();
-  try {
-    this.password = await argon2.hash(this.password);
-    next();
-  } catch (err) {
-    next(err);
-  }
+captainSchema.pre("save", async function () {
+  if (!this.isModified("password")) return;
+  this.password = await argon2.hash(this.password);
 });
+
 
 captainSchema.methods.comparePassword = async function (candidatePassword) {
   try {

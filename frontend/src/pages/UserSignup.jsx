@@ -1,54 +1,67 @@
-
 import React, { useState, useContext } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import axios from 'axios'
-import { UserDataContext } from "../context/UserContext.jsx"
-
-
+import { UserDataContext } from '../context/UseContext'
 
 const UserSignup = () => {
-  const [ email, setEmail ] = useState('')
-  const [ password, setPassword ] = useState('')
-  const [ firstName, setFirstName ] = useState('')
-  const [ lastName, setLastName ] = useState('')
-  const [ userData, setUserData ] = useState({})
+  const [email, setEmail] = useState('')
+  const [password, setPassword] = useState('')
+  const [firstName, setFirstName] = useState('')
+  const [lastName, setLastName] = useState('')
 
   const navigate = useNavigate()
 
-
-
   const { user, setUser } = useContext(UserDataContext)
 
-
-
-
   const submitHandler = async (e) => {
-    e.preventDefault()
+    e.preventDefault();
+
     const newUser = {
       fullname: {
         firstname: firstName,
-        lastname: lastName
+        lastname: lastName,
       },
-      email: email,
-      password: password
+      email,
+      password,
+    };
+
+    try {
+      const response = await axios.post(
+        `${import.meta.env.VITE_BASE_URL}/users/register`,
+        newUser,
+        { withCredentials: true }
+      );
+
+      if (response.status === 201) {
+        const data = response.data;
+
+        // ✅ Set user globally
+        setUser(data.user);
+
+        
+        if (data.role === "user") {
+          const token = data.user?.token || data.token;
+
+          if (token) {
+            localStorage.setItem("user-token", token);
+            localStorage.setItem("role", "user");
+          }
+          navigate("/home");
+        } else {
+          alert("Invalid role. Please sign up from the correct portal.");
+        }
+      }
+    } catch (error) {
+      const message =
+        error.response?.data?.message || "Signup failed! Please try again.";
+      alert(message);
     }
 
-    const response = await axios.post(`${import.meta.env.VITE_BASE_URL}/users/register`, newUser)
-
-    if (response.status === 201) {
-      const data = response.data
-      setUser(data.user)
-      localStorage.setItem('token', data.token)
-      navigate('/home')
-    }
-
-
-    setEmail('')
-    setFirstName('')
-    setLastName('')
-    setPassword('')
-
-  }
+    setEmail("");
+    setFirstName("");
+    setLastName("");
+    setPassword("");
+  };
   return (
     <div>
       <div className='p-7 h-screen flex flex-col justify-between'>

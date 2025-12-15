@@ -1,5 +1,5 @@
 export const validate = (schema) => (req, res, next) => {
-  const { error } = schema.validate(req.body);// return to object error and data 
+  const { error } = schema.validate(req.body,{ abortEarly: false });// return to object error and data 
   if (error) {
     return res.status(400).json({
       success: false,

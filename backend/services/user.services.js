@@ -1,6 +1,6 @@
 import User from "../models/user.models.js";
 import logger from "../utils/logger.js";
-import generateToken from "../utils/generateToken.js";
+import {generateUserToken} from "../utils/generateToken.js";
 
 export const registerUserService = async ({ fullname, email, password }) => {
 
@@ -21,14 +21,13 @@ export const registerUserService = async ({ fullname, email, password }) => {
   logger.info(` User created successfully: ${email}`);
 
 
-  const token = generateToken(user._id);
+  const token = generateUserToken(user);
 
   
   return {
-    id: user._id,
-    fullname: user.fullname,
-    email: user.email,
-    token, 
+    role: "user", // 👈 lets frontend know it’s user
+      token,
+      user,
   };
 };
 
@@ -53,7 +52,8 @@ export const loginUserService = async ({ email, password }) => {
     throw error;
   }
 
-  const token = generateToken(user._id);
+  const token = generateUserToken(user);
+
   logger.info(`✅ User logged in: ${email}`);
 
   return {
@@ -63,3 +63,4 @@ export const loginUserService = async ({ email, password }) => {
     token,
   };
 };
+

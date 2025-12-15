@@ -2,7 +2,7 @@ import React, { createContext, useState } from "react";
 
 export const UserDataContext = createContext();
 
-const UserContext = ({ children }) => {
+const UseContext = ({ children }) => {
   const [user, setUser] = useState({
     fullname: {
       firstname: "",
@@ -18,4 +18,4 @@ const UserContext = ({ children }) => {
   );
 };
 
-export default UserContext;
+export default UseContext;
