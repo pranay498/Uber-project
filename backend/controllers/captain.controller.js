@@ -66,3 +66,4 @@ export const logoutCaptain = asyncHandler(async (req, res) => {
     role: result.role,
   });
 });
+

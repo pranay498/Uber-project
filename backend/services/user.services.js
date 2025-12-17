@@ -57,10 +57,7 @@ export const loginUserService = async ({ email, password }) => {
   logger.info(`✅ User logged in: ${email}`);
 
   return {
-    id: user._id,
-    fullname: user.fullname,
-    email: user.email,
-    token,
+    user, token 
   };
 };
 

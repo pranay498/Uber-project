@@ -10,6 +10,14 @@ router.post("/register",validate(registerCaptainSchema),registerCaptain);
 
 router.post("/login",validate(captainLoginSchema),loginCaptain);
 
+router.get("/profile", authMiddleware, (req, res) => {
+  res.status(200).json({
+    success: true,
+    captain: req.user
+  });
+});
+
+
 router.post("/logout",authMiddleware, logoutCaptain)
 
 export default router;

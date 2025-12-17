@@ -1,6 +1,6 @@
 import React from 'react'
 
-const WaitingForDriver = () => {
+const WaitingForDriver = (props) => {
   return (
     <div>
       <div>

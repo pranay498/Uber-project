@@ -60,38 +60,35 @@ export const loginUser = asyncHandler(async (req, res) => {
 });
 
 export const logoutUser = asyncHandler(async (req, res) => {
-  try {
-    // ✅ Check for token in cookies or headers
-    const token = req.cookies?.token || req.headers.authorization?.split(" ")[1];
+const token =
+    req.cookies?.token ||
+    req.headers.authorization?.split(" ")[1];
 
-    if (!token) {
-      logger.warn("No token provided during logout");
-      return res.status(401).json({ success: false, message: "No token provided" });
-    }
-
-    // ✅ Blacklist token
-    await BlacklistToken.create({ token });
-    logger.info("Token blacklisted successfully");
-
-   
-    res.clearCookie("token", {
-      httpOnly: true,
-      sameSite: "strict",
-      secure: process.env.NODE_ENV === "production",
-    });
-
-    // ✅ Send response
-    res.status(200).json({
-      success: true,
-      message: "Logged out successfully",
-      role: "user",
-    });
-
-    logger.info("👋 User logged out successfully");
-  } catch (error) {
-    logger.error("Logout error: ", error.message);
-    res.status(500).json({ success: false, message: "Server error during logout" });
+  if (!token) {
+    logger.warn("No token provided during logout");
+    res.status(401);
+    throw new Error("No token provided");
   }
+
+
+  await BlacklistToken.create({ token });
+  logger.info("Token blacklisted successfully");
+
+  
+  res.clearCookie("token", {
+    httpOnly: true,
+    sameSite: "strict",
+    secure: process.env.NODE_ENV === "production",
+  });
+
+
+  res.status(200).json({
+    success: true,
+    message: "Logged out successfully",
+    role: req.role || "user", // dynamic role
+  });
+
+  logger.info("👋 User logged out successfully");
 });
 
 

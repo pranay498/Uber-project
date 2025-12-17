@@ -28,3 +28,42 @@
 {"time":"2025-12-15 11:39:55","level":"\u001b[31merror\u001b[39m","message":"\u001b[31mCaptain already exists\u001b[39m"}
 {"time":"2025-12-15 14:13:49","level":"\u001b[31merror\u001b[39m","message":"\u001b[31m❌ Error connecting to DB: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/\u001b[39m"}
 {"time":"2025-12-15 14:14:27","level":"\u001b[31merror\u001b[39m","message":"\u001b[31m❌ Error connecting to DB: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/\u001b[39m"}
+{"time":"2025-12-17 12:07:32","level":"\u001b[31merror\u001b[39m","message":"\u001b[31m❌ Error connecting to DB: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/\u001b[39m"}
+{"time":"2025-12-17 12:09:38","level":"\u001b[31merror\u001b[39m","message":"\u001b[31m❌ Error connecting to DB: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/\u001b[39m"}
+{"time":"2025-12-17 12:10:55","level":"\u001b[31merror\u001b[39m","message":"\u001b[31m❌ Error connecting to DB: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/\u001b[39m"}
+{"time":"2025-12-17 12:37:15","level":"\u001b[31merror\u001b[39m","message":"\u001b[31m❌ Error connecting to DB: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/\u001b[39m"}
+{"time":"2025-12-17 12:39:37","level":"\u001b[31merror\u001b[39m","message":"\u001b[31m❌ Error connecting to DB: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/\u001b[39m"}
+{"time":"2025-12-17 12:55:18","level":"\u001b[31merror\u001b[39m","message":"\u001b[31mUnable to fetch coordinates\u001b[39m"}
+{"time":"2025-12-17 15:12:48","level":"\u001b[31merror\u001b[39m","message":"\u001b[31mCannot destructure property '_id' of 'req.user' as it is undefined.\u001b[39m"}
+{"time":"2025-12-17 15:14:05","level":"\u001b[31merror\u001b[39m","message":"\u001b[31mCannot destructure property '_id' of 'req.user' as it is undefined.\u001b[39m"}
+{"time":"2025-12-17 15:34:09","level":"\u001b[31merror\u001b[39m","message":"\u001b[31mUnable to fetch suggestions\u001b[39m"}
+{"time":"2025-12-17 15:34:10","level":"\u001b[31merror\u001b[39m","message":"\u001b[31mUnable to fetch suggestions\u001b[39m"}
+{"time":"2025-12-17 15:34:10","level":"\u001b[31merror\u001b[39m","message":"\u001b[31mUnable to fetch suggestions\u001b[39m"}
+{"time":"2025-12-17 15:34:10","level":"\u001b[31merror\u001b[39m","message":"\u001b[31mUnable to fetch suggestions\u001b[39m"}
+{"time":"2025-12-17 15:36:14","level":"\u001b[31merror\u001b[39m","message":"\u001b[31mUnable to fetch suggestions\u001b[39m"}
+{"time":"2025-12-17 15:36:14","level":"\u001b[31merror\u001b[39m","message":"\u001b[31mUnable to fetch suggestions\u001b[39m"}
+{"time":"2025-12-17 15:36:14","level":"\u001b[31merror\u001b[39m","message":"\u001b[31mUnable to fetch suggestions\u001b[39m"}
+{"time":"2025-12-17 15:36:14","level":"\u001b[31merror\u001b[39m","message":"\u001b[31mUnable to fetch suggestions\u001b[39m"}
+{"time":"2025-12-17 15:36:15","level":"\u001b[31merror\u001b[39m","message":"\u001b[31mUnable to fetch suggestions\u001b[39m"}
+{"time":"2025-12-17 15:36:15","level":"\u001b[31merror\u001b[39m","message":"\u001b[31mUnable to fetch suggestions\u001b[39m"}
+{"time":"2025-12-17 21:50:23","level":"\u001b[31merror\u001b[39m","message":"\u001b[31mNo token provided\u001b[39m"}
+{"time":"2025-12-17 21:51:21","level":"\u001b[31merror\u001b[39m","message":"\u001b[31mNo token provided\u001b[39m"}
+{"time":"2025-12-17 22:06:56","level":"\u001b[31merror\u001b[39m","message":"\u001b[31mUnable to fetch coordinates\u001b[39m"}
+{"time":"2025-12-17 23:22:25","level":"\u001b[31merror\u001b[39m","message":"\u001b[31mCannot destructure property '_id' of 'req.user' as it is undefined.\u001b[39m"}
+{"time":"2025-12-17 23:30:49","level":"\u001b[31merror\u001b[39m","message":"\u001b[31mjwt malformed\u001b[39m"}
+{"time":"2025-12-17 23:30:50","level":"\u001b[31merror\u001b[39m","message":"\u001b[31mjwt malformed\u001b[39m"}
+{"time":"2025-12-17 23:30:50","level":"\u001b[31merror\u001b[39m","message":"\u001b[31mjwt malformed\u001b[39m"}
+{"time":"2025-12-17 23:32:04","level":"\u001b[31merror\u001b[39m","message":"\u001b[31mjwt malformed\u001b[39m"}
+{"time":"2025-12-17 23:32:05","level":"\u001b[31merror\u001b[39m","message":"\u001b[31mjwt malformed\u001b[39m"}
+{"time":"2025-12-18 00:43:57","level":"\u001b[31merror\u001b[39m","message":"\u001b[31mInvalid credentials\u001b[39m"}
+{"time":"2025-12-18 01:03:30","level":"\u001b[31merror\u001b[39m","message":"\u001b[31mgetaddrinfo ENOTFOUND ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-18 01:03:32","level":"\u001b[31merror\u001b[39m","message":"\u001b[31mgetaddrinfo ENOTFOUND ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-18 01:03:33","level":"\u001b[31merror\u001b[39m","message":"\u001b[31mgetaddrinfo ENOTFOUND ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-18 01:03:33","level":"\u001b[31merror\u001b[39m","message":"\u001b[31mgetaddrinfo ENOTFOUND ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-18 01:03:33","level":"\u001b[31merror\u001b[39m","message":"\u001b[31mgetaddrinfo ENOTFOUND ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-18 01:03:33","level":"\u001b[31merror\u001b[39m","message":"\u001b[31mgetaddrinfo ENOTFOUND ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-18 01:04:17","level":"\u001b[31merror\u001b[39m","message":"\u001b[31mgetaddrinfo ENOTFOUND ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-18 01:04:20","level":"\u001b[31merror\u001b[39m","message":"\u001b[31mgetaddrinfo ENOTFOUND ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-18 01:04:20","level":"\u001b[31merror\u001b[39m","message":"\u001b[31mgetaddrinfo ENOTFOUND ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-18 01:04:20","level":"\u001b[31merror\u001b[39m","message":"\u001b[31mgetaddrinfo ENOTFOUND ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-18 01:05:05","level":"\u001b[31merror\u001b[39m","message":"\u001b[31mgetaddrinfo ENOTFOUND ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}

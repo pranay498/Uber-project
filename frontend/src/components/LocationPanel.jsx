@@ -1,28 +1,43 @@
-import React from 'react'
+const LocationPanel = ({
+  pickupSuggestions,
+  destinationSuggestions,
+  activeField,
+  setPickup,
+  setDestination,
+  setPanelOpen,
+}) => {
+  return (
+    <div className="p-4">
 
+      {activeField === "pickup" &&
+        pickupSuggestions.map((item, index) => (
+          <div
+            key={index}
+            className="p-3 border-b cursor-pointer"
+            onClick={() => {
+              setPickup(item);
+                   // 👈 select ke baad band
+            }}
+          >
+            {item}
+          </div>
+        ))}
 
-const LocationPanel = (props) => {
+      {activeField === "destination" &&
+        destinationSuggestions.map((item, index) => (
+          <div
+            key={index}
+            className="p-3 border-b cursor-pointer"
+            onClick={() => {
+              setDestination(item);  // 👈 select ke baad band
+            }}
+          >
+            {item}
+          </div>
+        ))}
 
-    const suggestions = ["hello ", "hi name "]
+    </div>
+  );
+};
 
-    return (
-        <div>
-            {/* Display fetched suggestions */}
-            {
-                suggestions.map((elem, idx) => (
-                    <div
-                        onClick={() => {
-                            props.setVehiclePanel(true);
-                            props.setPanelOpen(false);
-                        }}
-                        key={idx} className='flex gap-4 border-2 p-3 border-gray-50 active:border-black rounded-xl items-center my-2 justify-start'>
-                        <h2 className='bg-[#eee] h-8 flex items-center justify-center w-12 rounded-full'><i className="ri-map-pin-fill"></i></h2>
-                        <h4 className='font-medium'>{elem}</h4>
-                    </div>
-                ))
-            }
-        </div>
-    )
-}
- 
-export default LocationPanel
+export default LocationPanel;

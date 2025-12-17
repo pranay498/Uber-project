@@ -575,3 +575,493 @@
 {"time":"2025-12-15 14:18:22","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
 {"time":"2025-12-15 14:18:22","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
 {"time":"2025-12-15 14:18:22","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 12:07:32","level":"\u001b[31merror\u001b[39m","message":"\u001b[31m❌ Error connecting to DB: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/\u001b[39m"}
+{"time":"2025-12-17 12:09:38","level":"\u001b[31merror\u001b[39m","message":"\u001b[31m❌ Error connecting to DB: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/\u001b[39m"}
+{"time":"2025-12-17 12:10:55","level":"\u001b[31merror\u001b[39m","message":"\u001b[31m❌ Error connecting to DB: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/\u001b[39m"}
+{"time":"2025-12-17 12:37:15","level":"\u001b[31merror\u001b[39m","message":"\u001b[31m❌ Error connecting to DB: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/\u001b[39m"}
+{"time":"2025-12-17 12:39:37","level":"\u001b[31merror\u001b[39m","message":"\u001b[31m❌ Error connecting to DB: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/\u001b[39m"}
+{"time":"2025-12-17 12:40:47","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-17 12:40:47","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-17 12:40:47","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 12:46:03","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-17 12:46:03","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-17 12:46:03","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 12:55:07","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-17 12:55:07","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-17 12:55:07","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 12:55:18","level":"\u001b[31merror\u001b[39m","message":"\u001b[31mUnable to fetch coordinates\u001b[39m"}
+{"time":"2025-12-17 13:26:55","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-17 13:26:55","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-17 13:26:55","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 13:27:31","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Captain registered: rahul.captain@test.com\u001b[39m"}
+{"time":"2025-12-17 13:27:31","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🧑‍✈️ Captain registered: rahul.captain@test.com\u001b[39m"}
+{"time":"2025-12-17 13:27:40","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🧑‍✈️ Captain logged in: meera.khanna@example.com\u001b[39m"}
+{"time":"2025-12-17 13:27:47","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m👋 Captain logged out\u001b[39m"}
+{"time":"2025-12-17 13:32:28","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-17 13:32:28","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-17 13:32:28","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 13:32:37","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-17 13:32:37","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-17 13:32:37","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 13:32:38","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-17 13:32:38","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-17 13:32:38","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 13:32:46","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-17 13:32:46","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-17 13:32:46","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 13:34:18","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-17 13:34:18","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-17 13:34:18","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 13:34:21","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-17 13:34:21","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-17 13:34:21","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 13:34:27","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-17 13:34:27","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-17 13:34:27","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 13:34:53","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-17 13:34:53","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-17 13:34:53","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 13:35:09","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-17 13:35:09","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-17 13:35:09","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 13:35:15","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-17 13:35:15","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-17 13:35:15","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 13:35:30","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-17 13:35:30","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-17 13:35:30","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 13:36:22","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-17 13:36:22","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-17 13:36:22","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 13:36:36","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-17 13:36:36","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-17 13:36:36","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 13:39:33","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-17 13:39:33","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-17 13:39:33","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 13:39:34","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-17 13:39:34","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-17 13:39:34","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 13:39:48","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-17 13:39:48","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-17 13:39:48","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 13:39:55","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-17 13:39:55","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-17 13:39:55","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 13:39:57","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-17 13:39:57","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-17 13:39:57","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 13:40:05","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-17 13:40:05","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-17 13:40:05","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 13:40:08","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-17 13:40:08","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-17 13:40:08","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 13:40:12","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-17 13:40:12","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-17 13:40:12","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 13:40:13","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-17 13:40:13","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-17 13:40:13","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 13:40:14","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-17 13:40:14","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-17 13:40:14","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 13:40:18","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-17 13:40:18","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-17 13:40:18","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 13:40:20","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-17 13:40:20","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-17 13:40:20","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 13:46:02","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-17 13:46:02","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-17 13:46:02","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 13:49:05","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-17 13:49:05","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-17 13:49:05","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 13:49:18","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-17 13:49:18","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-17 13:49:18","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 13:49:24","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-17 13:49:24","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-17 13:49:24","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 13:49:38","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-17 13:49:38","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-17 13:49:38","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 13:49:44","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-17 13:49:44","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-17 13:49:44","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 13:49:59","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-17 13:49:59","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-17 13:49:59","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 13:50:40","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-17 13:50:40","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-17 13:50:40","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 13:50:48","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-17 13:50:48","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-17 13:50:48","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 13:50:52","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-17 13:50:52","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-17 13:50:52","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 13:50:55","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-17 13:50:55","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-17 13:50:55","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 13:50:57","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-17 13:50:57","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-17 13:50:57","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 13:50:59","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-17 13:50:59","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-17 13:50:59","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 13:51:01","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-17 13:51:01","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-17 13:51:01","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 13:51:06","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-17 13:51:06","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-17 13:51:06","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 13:51:08","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-17 13:51:08","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-17 13:51:08","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 13:51:31","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-17 13:51:31","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-17 13:51:31","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 13:51:32","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-17 13:51:32","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-17 13:51:32","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 13:51:34","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-17 13:51:34","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-17 13:51:34","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 13:51:48","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-17 13:51:48","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-17 13:51:48","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 13:52:01","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-17 13:52:01","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-17 13:52:01","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 13:52:06","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-17 13:52:06","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-17 13:52:06","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 14:43:50","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-17 14:43:50","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-17 14:43:50","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 14:43:57","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-17 14:43:57","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-17 14:43:57","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 14:44:02","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-17 14:44:02","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-17 14:44:02","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 14:44:07","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-17 14:44:07","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-17 14:44:07","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 14:44:10","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-17 14:44:10","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-17 14:44:10","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 14:44:13","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-17 14:44:13","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-17 14:44:13","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 14:44:19","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-17 14:44:19","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-17 14:44:19","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 14:44:21","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-17 14:44:21","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-17 14:44:21","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 14:44:24","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-17 14:44:24","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-17 14:44:24","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 14:44:26","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-17 14:44:26","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-17 14:44:26","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 14:47:44","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-17 14:47:44","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-17 14:47:44","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 15:04:50","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-17 15:04:50","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-17 15:04:50","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 15:05:58","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-17 15:05:58","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-17 15:05:58","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 15:06:04","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-17 15:06:04","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-17 15:06:04","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 15:06:06","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-17 15:06:06","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-17 15:06:06","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 15:06:09","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-17 15:06:09","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-17 15:06:09","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 15:06:39","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-17 15:06:39","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-17 15:06:39","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 15:06:41","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-17 15:06:41","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-17 15:06:41","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 15:06:45","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-17 15:06:45","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-17 15:06:45","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 15:07:53","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-17 15:07:53","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-17 15:07:53","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 15:08:00","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-17 15:08:00","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-17 15:08:00","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 15:08:08","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-17 15:08:08","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-17 15:08:08","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 15:08:09","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-17 15:08:09","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-17 15:08:09","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 15:08:11","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-17 15:08:11","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-17 15:08:11","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 15:08:12","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-17 15:08:12","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-17 15:08:12","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 15:08:14","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-17 15:08:14","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-17 15:08:14","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 15:08:16","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-17 15:08:16","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-17 15:08:16","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 15:08:17","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-17 15:08:17","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-17 15:08:17","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 15:08:20","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-17 15:08:20","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-17 15:08:20","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 15:08:23","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-17 15:08:23","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-17 15:08:23","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 15:08:54","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-17 15:08:54","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-17 15:08:54","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 15:08:59","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-17 15:08:59","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-17 15:08:59","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 15:11:45","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-17 15:11:45","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-17 15:11:45","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 15:12:20","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-17 15:12:20","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-17 15:12:20","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 15:12:48","level":"\u001b[31merror\u001b[39m","message":"\u001b[31mCannot destructure property '_id' of 'req.user' as it is undefined.\u001b[39m"}
+{"time":"2025-12-17 15:13:56","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-17 15:13:56","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-17 15:13:56","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 15:14:05","level":"\u001b[31merror\u001b[39m","message":"\u001b[31mCannot destructure property '_id' of 'req.user' as it is undefined.\u001b[39m"}
+{"time":"2025-12-17 15:14:27","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-17 15:14:27","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-17 15:14:27","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 15:34:04","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m User created successfully: s@s.com\u001b[39m"}
+{"time":"2025-12-17 15:34:09","level":"\u001b[31merror\u001b[39m","message":"\u001b[31mUnable to fetch suggestions\u001b[39m"}
+{"time":"2025-12-17 15:34:10","level":"\u001b[31merror\u001b[39m","message":"\u001b[31mUnable to fetch suggestions\u001b[39m"}
+{"time":"2025-12-17 15:34:10","level":"\u001b[31merror\u001b[39m","message":"\u001b[31mUnable to fetch suggestions\u001b[39m"}
+{"time":"2025-12-17 15:34:10","level":"\u001b[31merror\u001b[39m","message":"\u001b[31mUnable to fetch suggestions\u001b[39m"}
+{"time":"2025-12-17 15:36:14","level":"\u001b[31merror\u001b[39m","message":"\u001b[31mUnable to fetch suggestions\u001b[39m"}
+{"time":"2025-12-17 15:36:14","level":"\u001b[31merror\u001b[39m","message":"\u001b[31mUnable to fetch suggestions\u001b[39m"}
+{"time":"2025-12-17 15:36:14","level":"\u001b[31merror\u001b[39m","message":"\u001b[31mUnable to fetch suggestions\u001b[39m"}
+{"time":"2025-12-17 15:36:14","level":"\u001b[31merror\u001b[39m","message":"\u001b[31mUnable to fetch suggestions\u001b[39m"}
+{"time":"2025-12-17 15:36:15","level":"\u001b[31merror\u001b[39m","message":"\u001b[31mUnable to fetch suggestions\u001b[39m"}
+{"time":"2025-12-17 15:36:15","level":"\u001b[31merror\u001b[39m","message":"\u001b[31mUnable to fetch suggestions\u001b[39m"}
+{"time":"2025-12-17 15:37:20","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-17 15:37:20","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-17 15:37:20","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 15:47:44","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-17 15:47:44","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-17 15:47:44","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 19:00:38","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-17 19:00:38","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-17 19:00:38","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 19:02:16","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-17 19:02:16","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-17 19:02:16","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 19:02:31","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-17 19:02:31","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-17 19:02:31","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 19:03:27","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-17 19:03:27","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-17 19:03:27","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 19:04:05","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-17 19:04:05","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-17 19:04:05","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 19:09:33","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-17 19:09:33","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-17 19:09:33","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 19:14:45","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-17 19:14:45","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-17 19:14:45","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 19:14:46","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-17 19:14:46","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-17 19:14:46","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 19:14:47","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-17 19:14:47","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-17 19:14:47","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 19:14:49","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-17 19:14:49","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-17 19:14:49","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 21:27:25","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-17 21:27:25","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-17 21:27:25","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 21:48:39","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-17 21:48:39","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-17 21:48:39","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 21:50:23","level":"\u001b[31merror\u001b[39m","message":"\u001b[31mNo token provided\u001b[39m"}
+{"time":"2025-12-17 21:50:41","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-17 21:50:41","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-17 21:50:41","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 21:50:42","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-17 21:50:42","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-17 21:50:42","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 21:50:45","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-17 21:50:45","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-17 21:50:45","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 21:51:21","level":"\u001b[31merror\u001b[39m","message":"\u001b[31mNo token provided\u001b[39m"}
+{"time":"2025-12-17 21:51:34","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-17 21:51:34","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-17 21:51:34","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 21:51:50","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-17 21:51:50","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-17 21:51:50","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 21:51:54","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-17 21:51:54","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-17 21:51:54","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 21:51:57","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-17 21:51:57","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-17 21:51:57","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 22:06:56","level":"\u001b[31merror\u001b[39m","message":"\u001b[31mUnable to fetch coordinates\u001b[39m"}
+{"time":"2025-12-17 22:13:13","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-17 22:13:13","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-17 22:13:13","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 22:13:31","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-17 22:13:31","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-17 22:13:31","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 22:43:03","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-17 22:43:03","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-17 22:43:03","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 22:43:08","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-17 22:43:08","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-17 22:43:08","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 22:43:11","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-17 22:43:11","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-17 22:43:11","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 22:43:22","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-17 22:43:22","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-17 22:43:22","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 23:22:25","level":"\u001b[31merror\u001b[39m","message":"\u001b[31mCannot destructure property '_id' of 'req.user' as it is undefined.\u001b[39m"}
+{"time":"2025-12-17 23:23:49","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-17 23:23:49","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-17 23:23:49","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 23:23:53","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-17 23:23:53","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-17 23:23:53","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 23:24:31","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ User logged in: s@s.com\u001b[39m"}
+{"time":"2025-12-17 23:30:43","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ User logged in: s@s.com\u001b[39m"}
+{"time":"2025-12-17 23:30:49","level":"\u001b[31merror\u001b[39m","message":"\u001b[31mjwt malformed\u001b[39m"}
+{"time":"2025-12-17 23:30:50","level":"\u001b[31merror\u001b[39m","message":"\u001b[31mjwt malformed\u001b[39m"}
+{"time":"2025-12-17 23:30:50","level":"\u001b[31merror\u001b[39m","message":"\u001b[31mjwt malformed\u001b[39m"}
+{"time":"2025-12-17 23:32:04","level":"\u001b[31merror\u001b[39m","message":"\u001b[31mjwt malformed\u001b[39m"}
+{"time":"2025-12-17 23:32:05","level":"\u001b[31merror\u001b[39m","message":"\u001b[31mjwt malformed\u001b[39m"}
+{"time":"2025-12-17 23:32:39","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ User logged in: s@s.com\u001b[39m"}
+{"time":"2025-12-17 23:38:22","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ User logged in: s@s.com\u001b[39m"}
+{"time":"2025-12-17 23:38:42","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ User logged in: s@s.com\u001b[39m"}
+{"time":"2025-12-17 23:39:03","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ User logged in: s@s.com\u001b[39m"}
+{"time":"2025-12-17 23:41:43","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ User logged in: s@s.com\u001b[39m"}
+{"time":"2025-12-17 23:48:47","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ User logged in: s@s.com\u001b[39m"}
+{"time":"2025-12-17 23:49:19","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ User logged in: s@s.com\u001b[39m"}
+{"time":"2025-12-17 23:54:01","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-17 23:54:01","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-17 23:54:01","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 23:54:27","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-17 23:54:27","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-17 23:54:27","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 23:55:41","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-17 23:55:41","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-17 23:55:41","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-17 23:56:07","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ User logged in: s@s.com\u001b[39m"}
+{"time":"2025-12-18 00:00:27","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-18 00:00:27","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-18 00:00:27","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-18 00:00:40","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-18 00:00:40","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-18 00:00:40","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-18 00:00:58","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-18 00:00:58","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-18 00:00:58","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-18 00:01:11","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-18 00:01:11","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-18 00:01:11","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-18 00:01:40","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-18 00:01:40","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-18 00:01:40","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-18 00:04:22","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-18 00:04:22","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-18 00:04:22","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-18 00:04:23","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-18 00:04:23","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-18 00:04:23","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-18 00:04:42","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-18 00:04:42","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-18 00:04:42","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-18 00:04:49","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-18 00:04:49","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-18 00:04:49","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-18 00:05:43","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-18 00:05:43","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-18 00:05:43","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-18 00:05:49","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-18 00:05:49","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-18 00:05:49","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-18 00:09:08","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-18 00:09:08","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-18 00:09:08","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-18 00:09:16","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ User logged in: s@s.com\u001b[39m"}
+{"time":"2025-12-18 00:12:02","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-18 00:12:02","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-18 00:12:02","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-18 00:12:05","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-18 00:12:05","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-18 00:12:05","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-18 00:12:10","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-18 00:12:10","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-18 00:12:10","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-18 00:12:33","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ User logged in: s@s.com\u001b[39m"}
+{"time":"2025-12-18 00:14:32","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-18 00:14:32","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-18 00:14:32","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-18 00:14:39","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-18 00:14:39","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-18 00:14:39","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-18 00:14:58","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ User logged in: s@s.com\u001b[39m"}
+{"time":"2025-12-18 00:32:34","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Captain registered: y@y.com\u001b[39m"}
+{"time":"2025-12-18 00:32:34","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🧑‍✈️ Captain registered: y@y.com\u001b[39m"}
+{"time":"2025-12-18 00:43:35","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🧑‍✈️ Captain logged in: meera.khanna@example.com\u001b[39m"}
+{"time":"2025-12-18 00:43:53","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🧑‍✈️ Captain logged in: meera.khanna@example.com\u001b[39m"}
+{"time":"2025-12-18 00:43:57","level":"\u001b[31merror\u001b[39m","message":"\u001b[31mInvalid credentials\u001b[39m"}
+{"time":"2025-12-18 00:44:02","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🧑‍✈️ Captain logged in: meera.khanna@example.com\u001b[39m"}
+{"time":"2025-12-18 00:48:22","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-18 00:48:22","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-18 00:48:22","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-18 00:48:31","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-18 00:48:31","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-18 00:48:31","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-18 00:48:33","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-18 00:48:33","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-18 00:48:33","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-18 00:50:31","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🧑‍✈️ Captain logged in: y@y.com\u001b[39m"}
+{"time":"2025-12-18 00:50:41","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🧑‍✈️ Captain logged in: y@y.com\u001b[39m"}
+{"time":"2025-12-18 00:50:42","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🧑‍✈️ Captain logged in: y@y.com\u001b[39m"}
+{"time":"2025-12-18 00:50:43","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🧑‍✈️ Captain logged in: y@y.com\u001b[39m"}
+{"time":"2025-12-18 00:50:43","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🧑‍✈️ Captain logged in: y@y.com\u001b[39m"}
+{"time":"2025-12-18 01:03:30","level":"\u001b[31merror\u001b[39m","message":"\u001b[31mgetaddrinfo ENOTFOUND ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-18 01:03:32","level":"\u001b[31merror\u001b[39m","message":"\u001b[31mgetaddrinfo ENOTFOUND ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-18 01:03:33","level":"\u001b[31merror\u001b[39m","message":"\u001b[31mgetaddrinfo ENOTFOUND ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-18 01:03:33","level":"\u001b[31merror\u001b[39m","message":"\u001b[31mgetaddrinfo ENOTFOUND ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-18 01:03:33","level":"\u001b[31merror\u001b[39m","message":"\u001b[31mgetaddrinfo ENOTFOUND ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-18 01:03:33","level":"\u001b[31merror\u001b[39m","message":"\u001b[31mgetaddrinfo ENOTFOUND ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-18 01:04:17","level":"\u001b[31merror\u001b[39m","message":"\u001b[31mgetaddrinfo ENOTFOUND ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-18 01:04:20","level":"\u001b[31merror\u001b[39m","message":"\u001b[31mgetaddrinfo ENOTFOUND ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-18 01:04:20","level":"\u001b[31merror\u001b[39m","message":"\u001b[31mgetaddrinfo ENOTFOUND ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-18 01:04:20","level":"\u001b[31merror\u001b[39m","message":"\u001b[31mgetaddrinfo ENOTFOUND ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-18 01:05:05","level":"\u001b[31merror\u001b[39m","message":"\u001b[31mgetaddrinfo ENOTFOUND ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-18 01:19:55","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🗄️ MongoDB connected: ac-f2kbkzu-shard-00-00.2uk5mlb.mongodb.net\u001b[39m"}
+{"time":"2025-12-18 01:19:55","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected successfully.\u001b[39m"}
+{"time":"2025-12-18 01:19:55","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🚀 Server is running on port 3000\u001b[39m"}
+{"time":"2025-12-18 01:20:07","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🧑‍✈️ Captain logged in: y@y.com\u001b[39m"}
+{"time":"2025-12-18 01:23:17","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🧑‍✈️ Captain logged in: y@y.com\u001b[39m"}
+{"time":"2025-12-18 01:25:50","level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m🧑‍✈️ Captain logged in: y@y.com\u001b[39m"}
