@@ -8,11 +8,12 @@ const CaptainLogout = () => {
 
   useEffect(() => {
     if (!token) {
+      localStorage.removeItem('role')
       navigate('/captain-login')
       return
     }
 
-    axios.post(`${import.meta.env.VITE_API_URL}/captains/logout`, {}, {
+    axios.post(`${import.meta.env.VITE_BASE_URL}/captains/logout`, {}, {
       headers: {
         Authorization: `Bearer ${token}`
       }
@@ -20,11 +21,13 @@ const CaptainLogout = () => {
       .then((response) => {
         if (response.status === 200) {
           localStorage.removeItem('captain-token')
+          localStorage.removeItem('role')
           navigate('/captain-login')
         }
       })
       .catch(() => {
         localStorage.removeItem('captain-token')
+        localStorage.removeItem('role')
         navigate('/captain-login')
       })
   }, [token])

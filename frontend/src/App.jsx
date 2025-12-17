@@ -10,10 +10,9 @@ import UserProtectedWrapper from "./pages/UserProtectedWrapper.jsx"
 import UserLogout from "./pages/UserLogout.jsx"
 import CaptainProtected from "./pages/CaptainProtected.jsx"
 import CaptainHome from "./pages/CaptainHome.jsx"
+import CaptainLogout from "./pages/CaptainLogout.jsx"
 
 function App() {
-
-
   return (
     <div>
       <Routes>
@@ -22,21 +21,43 @@ function App() {
         <Route path="/signup" element={<UserSignup />} />
         <Route path="/captain-login" element={<CaptainLogin />} />
         <Route path="/captain-signup" element={<CaptainSignup />} />
-        <Route path="/home" element={
-          <UserProtectedWrapper>
-            <Home />
-          </UserProtectedWrapper>} />
-        <Route path='/users/logout'
-          element={<UserProtectedWrapper>
-            <UserLogout />
-          </UserProtectedWrapper>
+
+        <Route
+          path="/home"
+          element={
+            <UserProtectedWrapper>
+              <Home />
+            </UserProtectedWrapper>
+          }
+        />
+
+        <Route
+          path="/users/logout"
+          element={
+            <UserProtectedWrapper>
+              <UserLogout />
+            </UserProtectedWrapper>
+          }
+        />
+
+        <Route
+          path="/captains/logout"
+          element={
+            <CaptainProtected>
+              <CaptainLogout />
+            </CaptainProtected>
+          }
+        />
+
+        <Route path="/captain-home" element={ 
+          <CaptainProtected>
+              <CaptainHome />
+            </CaptainProtected>
           } />
-           <Route path='/captain-home' element={
-            <CaptainHome />    
-           }/>
       </Routes>
     </div>
   )
 }
 
 export default App
+

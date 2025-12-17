@@ -8,18 +8,22 @@ const captainSchema = new mongoose.Schema({
       required: true,
       minLength: [3, "First Name must be at least 3 characters long"],
       maxLength: [30, "First Name is too long"],
+      trim: true,
     },
     lastname: {
       type: String,
       required: true,
       minLength: [3, "Last Name must be at least 3 characters long"],
       maxLength: [30, "Last Name is too long"],
+      trim: true,
     },
   },
   email: {
     type: String,
     required: true,
     unique: true,
+    lowercase: true,
+    trim: true,
     match: [
       /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/,
       "Please fill a valid email address",
@@ -67,13 +71,12 @@ const captainSchema = new mongoose.Schema({
     lat: { type: Number, default: 0 },
     lng: { type: Number, default: 0 },
   },
-});
+}, { timestamps: true });
 
 captainSchema.pre("save", async function () {
   if (!this.isModified("password")) return;
   this.password = await argon2.hash(this.password);
 });
-
 
 captainSchema.methods.comparePassword = async function (candidatePassword) {
   try {

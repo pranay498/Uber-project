@@ -1,14 +1,14 @@
-import jwt from "jsonwebtoken";
-import User from "../models/user.models.js";
-import Captain from "../models/captain.model.js";
-
 export const authMiddleware = async (req, res, next) => {
   const authHeader = req.headers.authorization;
-  if (!authHeader || !authHeader.startsWith("Bearer ")) {
+  const token =
+    authHeader?.startsWith("Bearer ")
+      ? authHeader.split(" ")[1]
+      : req.cookies?.token; // ✅ also allow reading from cookie
+
+  if (!token) {
     return res.status(401).json({ message: "No token provided" });
   }
 
-  const token = authHeader.split(" ")[1];
   try {
     const decoded = jwt.verify(token, process.env.JWT_SECRET);
 

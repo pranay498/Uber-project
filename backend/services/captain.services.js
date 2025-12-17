@@ -3,7 +3,6 @@ import {generateCaptainToken} from "../utils/generateToken.js";
 import logger from "../utils/logger.js";
 
 export const registerCaptainService = async (data) => {
-  console.log("📦 Captain data received:", data);
   const { fullname, email, password, vehicle } = data;
 
   if (!fullname?.firstname || !fullname?.lastname || !email || !password || !vehicle) {
@@ -22,39 +21,36 @@ export const registerCaptainService = async (data) => {
   const captain = await Captain.create(data);
   logger.info(`✅ Captain registered: ${email}`);
 
-   const token = generateCaptainToken(captain);
+  const token = generateCaptainToken(captain);
 
   return {
     id: captain._id,
     fullname: captain.fullname,
     email: captain.email,
-    token
+    token,
+    role: "captain"              // ✅ role added here
   };
 };
 
 export const loginCaptainService = async ({ email, password }) => {
-  const captain = await Captain.findOne({ email }).select("+password");
+  const captain = await Captain.findOne({ email: email.toLowerCase().trim() }).select("+password");
+
   if (!captain) {
-    const error = new Error("Invalid email or password");
-    error.statusCode = 401;
-    throw error;
+    throw new Error("Invalid credentials");
   }
 
-  const isMatch = await captain.comparePassword(password);
-  if (!isMatch) {
-    const error = new Error("Invalid email or password");
-    error.statusCode = 401;
-    throw error;
+  const isPasswordValid = await captain.comparePassword(password);
+  if (!isPasswordValid) {
+    throw new Error("Invalid credentials");
   }
 
-  const token = generateCaptainToken(captain);
-
-  logger.info(`✅ Captain logged in: ${email}`);
+  const token = generateCaptainToken(captain._id);
 
   return {
     id: captain._id,
     fullname: captain.fullname,
     email: captain.email,
+    role: "captain",
     token,
   };
 };
@@ -66,5 +62,5 @@ export const logoutCaptainService = async (res) => {
     sameSite: "strict",
   });
 
-  return { message: "Captain logged out successfully" };
+  return { message: "Captain logged out successfully", role: "captain" };
 };

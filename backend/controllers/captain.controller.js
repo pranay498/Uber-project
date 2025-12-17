@@ -2,8 +2,7 @@ import { asyncHandler } from "../utils/asyncHandler.js";
 import logger from "../utils/logger.js";
 import { registerCaptainService,loginCaptainService,logoutCaptainService } from "../services/captain.services.js";
 
-
-  export const registerCaptain = asyncHandler(async (req, res) => {
+export const registerCaptain = asyncHandler(async (req, res) => {
   const captain = await registerCaptainService(req.body);
 
   res.cookie("token", captain.token, {
@@ -22,8 +21,10 @@ import { registerCaptainService,loginCaptainService,logoutCaptainService } from 
       id: captain.id,
       fullname: captain.fullname,
       email: captain.email,
+      role: captain.role,        // ✅ role included here
     },
     captainToken: captain.token,
+    role: captain.role           // ✅ also send top-level role
   });
 });
 
@@ -47,10 +48,13 @@ export const loginCaptain = asyncHandler(async (req, res) => {
       id: captain.id,
       fullname: captain.fullname,
       email: captain.email,
+      role: captain.role,        // ✅ include role in captain object
     },
-    captainToken: captain.token,
+    captainToken: captain.token, // ✅ include token separately
+    role: captain.role           // ✅ send top-level role
   });
 });
+
 
 export const logoutCaptain = asyncHandler(async (req, res) => {
   const result = await logoutCaptainService(res);
@@ -59,5 +63,6 @@ export const logoutCaptain = asyncHandler(async (req, res) => {
   res.status(200).json({
     success: true,
     message: result.message,
+    role: result.role,
   });
 });
