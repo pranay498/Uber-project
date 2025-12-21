@@ -7,57 +7,50 @@ import logger from "../utils/logger.js";
 export const registerUser = asyncHandler(async (req, res) => {
   const { fullname, email, password } = req.body;
 
-  const user = await registerUserService({ fullname, email, password });
+  const result = await registerUserService({ fullname, email, password });
 
-  const cookieOptions = {
+  res.status(201).cookie("token", result.token, {
     httpOnly: true,
     secure: process.env.NODE_ENV === "production",
     sameSite: "strict",
-    maxAge: 7 * 24 * 60 * 60 * 1000, // 7 days
-  };
-
-  res
-    .status(201)
-    .cookie("token", user.token, cookieOptions)
-    .json({
-      success: true,
-      message: "User registered successfully",
-      role: "user", // ✅ added role
-      user: {
-        id: user.id,
-        fullname: user.fullname,
-        email: user.email,
-        token: user.token,
-      },
-    });
+    maxAge: 7 * 24 * 60 * 60 * 1000,
+  }).json({
+    success: true,
+    message: "User registered successfully",
+    role: "user",
+    user: {
+      id: result.user._id,          // ✅ FIX
+      fullname: result.user.fullname,
+      email: result.user.email,
+    },
+    token: result.token             // ✅ top-level token
+  });
 });
+
 
 export const loginUser = asyncHandler(async (req, res) => {
   const { email, password } = req.body;
-  const user = await loginUserService({ email, password });
+  const result = await loginUserService({ email, password });
 
-  const cookieOptions = {
+  res.status(200).cookie("token", result.token, {
     httpOnly: true,
     secure: process.env.NODE_ENV === "production",
     sameSite: "strict",
-    maxAge: 7 * 24 * 60 * 60 * 1000, // 7 days
-  };
-
-  res
-    .status(200)
-    .cookie("token", user.token, cookieOptions)
-    .json({
-      success: true,
-      message: "Login successful",
-      role: "user", // ✅ added role
-      user: {
-        id: user.id,
-        fullname: user.fullname,
-        email: user.email,
-        token: user.token,
-      },
-    });
+    maxAge: 7 * 24 * 60 * 60 * 1000,
+  }).json({
+    success: true,
+    message: "Login successful",
+    role: "user",
+    user: {
+      id: result.user._id,          // ✅ FIX
+      fullname: result.user.fullname,
+      email: result.user.email,
+    },
+    token: result.token
+  });
 });
+
+
 
 export const logoutUser = asyncHandler(async (req, res) => {
 const token =

@@ -1,9 +1,8 @@
 import axios from "axios";
+import { asyncHandler } from "../utils/asyncHandler.js";
+import Captain from "../models/captain.model.js";
 
-/**
- * 📍 Address → Latitude / Longitude
- * (Google Geocoding replacement)
- */
+
 export const getAddressCoordinate = async (address) => {
   if (!address) {
     const error = new Error("Address is required");
@@ -35,10 +34,7 @@ export const getAddressCoordinate = async (address) => {
   };
 };
 
-/**
- * 🚗 Distance + Time
- * (Google Distance Matrix replacement)
- */
+
 export const getDistanceTime = async (origin, destination) => {
   if (!origin || !destination) {
     const error = new Error("Origin and destination are required");
@@ -69,10 +65,7 @@ export const getDistanceTime = async (origin, destination) => {
   };
 };
 
-/**
- * 🔎 Autocomplete Suggestions
- * (Google Places Autocomplete replacement)
- */
+
 export const getAutoCompleteSuggestions = async (input) => {
   if (!input) {
     const error = new Error("Input query is required");
@@ -94,3 +87,18 @@ export const getAutoCompleteSuggestions = async (input) => {
     .map((item) => item.display_name)
     .filter(Boolean);
 };
+
+export const getCaptainsInTheRadius = asyncHandler(
+  async (ltd, lng, radius) => {
+    // ⚠️ MongoDB expects [lng, lat]
+    const captains = await Captain.find({
+      location: {
+        $geoWithin: {
+          $centerSphere: [[lng, ltd], radius / 6371], // radius in KM
+        },
+      },
+    });
+
+    return captains;
+  }
+);

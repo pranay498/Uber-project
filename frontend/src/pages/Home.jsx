@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from "react";
+import React, { useState, useRef, useEffect, useContext } from "react";
 import axios from "axios";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
@@ -9,6 +9,9 @@ import VehiclePanel from "../components/VehiclePanel.jsx";
 import ConfirmRide from "../components/ConfirmRide.jsx";
 import WaitingForDriver from "../components/WaitingForDriver.jsx";
 import LookingForDriver from "../components/LookingForDriver.jsx";
+import { SocketContext } from "../context/SocketContext.jsx";
+import { UserDataContext } from "../context/UseContext.jsx";
+
 
 const Home = () => {
   const [pickup, setPickup] = useState("");
@@ -25,7 +28,8 @@ const Home = () => {
   const [waitingForDriver, setWaitingForDriver] = useState(false);
   const [activeField, setActiveField] = useState(null);
 
-
+  const { sendMessage, receiveMessage } = useContext(SocketContext)
+  const { user, setUser } = useContext(UserDataContext);
 
   const panelref = useRef(null);
   const panelCloseRef = useRef(null);
@@ -33,6 +37,8 @@ const Home = () => {
   const confirmRidePanelRef = useRef(null);
   const vehicleFoundRef = useRef(null);
   const waitingForDriverRef = useRef(null);
+
+   const { socket } = useContext(SocketContext)
 
   /* -------------------- FETCH SUGGESTIONS -------------------- */
   const fetchSuggestions = async (value, setSuggestions) => {
@@ -174,6 +180,21 @@ const Home = () => {
       transform: waitingForDriver ? "translateY(0)" : "translateY(100%)",
     });
   }, [waitingForDriver]);
+
+useEffect(() => {
+  if (!user || !(user.id || user._id)) return;
+
+  const userId = user.id || user._id;
+
+  socket.emit("join", {
+    userId,
+    userType: "user",
+  });
+
+  console.log("✅ join sent (user)", userId);
+}, [user]);
+
+
   /* -------------------- JSX -------------------- */
   return (
     <div className="h-screen relative overflow-hidden">

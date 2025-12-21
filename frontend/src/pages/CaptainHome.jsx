@@ -6,16 +6,23 @@ import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 import ConfirmRidePopUp from '../components/ConfirmRidePopUp'
 import { useEffect, useContext } from 'react'
+import { CaptainDataContext } from '../context/CaptainContext.jsx'
+import { SocketContext } from '../context/SocketContext'
+
 import axios from 'axios'
 
 const CaptainHome = () => {
 
-    const [ ridePopupPanel, setRidePopupPanel ] = useState(false)
+    const [ ridePopupPanel, setRidePopupPanel ] = useState(true)
     const [ confirmRidePopupPanel, setConfirmRidePopupPanel ] = useState(false)
 
     const ridePopupPanelRef = useRef(null)
     const confirmRidePopupPanelRef = useRef(null)
     const [ ride, setRide ] = useState(null)
+
+    const { captain, setCaptain } = useContext(CaptainDataContext)
+
+    const { socket } = useContext(SocketContext)
 
 
     useGSAP(function () {
@@ -41,6 +48,46 @@ const CaptainHome = () => {
             })
         }
     }, [ confirmRidePopupPanel ])
+
+    useEffect(() => {
+      if (!captain || !(captain.id || captain._id)) return;
+    
+      const userId = captain.id || captain._id;
+    
+      socket.emit("join", {
+        userId,
+        userType: "captain",
+      });
+
+        const updateLocation = () => {
+            if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(position => {
+
+                    console.log({
+                        userId: captain._id,
+                        location: {
+                            ltd: position.coords.latitude,
+                            lng: position.coords.longitude
+                        }
+                })
+
+                    socket.emit('update-location-captain', {
+                        userId: captain._id,
+                        location: {
+                            ltd: position.coords.latitude,
+                            lng: position.coords.longitude
+                        }
+                    })
+                })
+            }
+        }
+
+        const locationInterval = setInterval(updateLocation, 10000)
+        updateLocation()
+    
+      console.log("✅ join sent (user)", userId);
+    }, [captain]);
+    
 
     return (
         <div className='h-screen'>

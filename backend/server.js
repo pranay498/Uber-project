@@ -1,31 +1,30 @@
 import dotenv from "dotenv";
-dotenv.config(); // Load environment variables first
+dotenv.config();
 
 import http from "http";
 import app from "./app.js";
 import connectDB from "./config/db.js";
+import { initializeSocket } from "./socket.js";
 import logger from "./utils/logger.js";
 
-const port = process.env.PORT || 3000;
-
+const PORT = process.env.PORT || 5000;
 
 const server = http.createServer(app);
 
+initializeSocket(server);
+
 const startServer = async () => {
   try {
-    // 🗄️ Connect to DB first
     await connectDB();
-    logger.info("✅ Database connected successfully.");
+    logger.info("✅ Database connected");
 
-    // 🚀 Start server after DB connection
-    server.listen(port, () => {
-      logger.info(`🚀 Server is running on port ${port}`);
+    server.listen(PORT, () => {
+      logger.info(`🚀 Server running on port ${PORT}`);
     });
   } catch (error) {
-    logger.error("❌ Failed to connect to Database:", error.message);
-    process.exit(1); 
+    logger.error("❌ Server failed", error.message);
+    process.exit(1);
   }
 };
 
-// Start the setup
 startServer();

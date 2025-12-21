@@ -28,7 +28,7 @@ export const registerCaptainService = async (data) => {
     fullname: captain.fullname,
     email: captain.email,
     token,
-    role: "captain"              // ✅ role added here
+    role: "captain"             
   };
 };
 
