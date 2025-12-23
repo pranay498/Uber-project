@@ -11,6 +11,7 @@ const PORT = process.env.PORT || 5000;
 
 const server = http.createServer(app);
 
+// ✅ socket attach yahin hona chahiye
 initializeSocket(server);
 
 const startServer = async () => {

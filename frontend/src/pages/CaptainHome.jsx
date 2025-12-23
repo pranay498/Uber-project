@@ -13,12 +13,12 @@ import axios from 'axios'
 
 const CaptainHome = () => {
 
-    const [ ridePopupPanel, setRidePopupPanel ] = useState(true)
-    const [ confirmRidePopupPanel, setConfirmRidePopupPanel ] = useState(false)
+    const [ridePopupPanel, setRidePopupPanel] = useState(false)
+    const [confirmRidePopupPanel, setConfirmRidePopupPanel] = useState(false)
 
     const ridePopupPanelRef = useRef(null)
     const confirmRidePopupPanelRef = useRef(null)
-    const [ ride, setRide ] = useState(null)
+    const [ride, setRide] = useState(null)
 
     const { captain, setCaptain } = useContext(CaptainDataContext)
 
@@ -35,7 +35,7 @@ const CaptainHome = () => {
                 transform: 'translateY(100%)'
             })
         }
-    }, [ ridePopupPanel ])
+    }, [ridePopupPanel])
 
     useGSAP(function () {
         if (confirmRidePopupPanel) {
@@ -47,32 +47,32 @@ const CaptainHome = () => {
                 transform: 'translateY(100%)'
             })
         }
-    }, [ confirmRidePopupPanel ])
+    }, [confirmRidePopupPanel])
 
     useEffect(() => {
-      if (!captain || !(captain.id || captain._id)) return;
-    
-      const userId = captain.id || captain._id;
-    
-      socket.emit("join", {
-        userId,
-        userType: "captain",
-      });
+        if (!captain || !(captain._id || captain.id)) return;
+
+        const userId = captain._id || captain.id;
+
+        socket.emit("join", {
+            userId,
+            userType: "captain",
+        });
 
         const updateLocation = () => {
             if (navigator.geolocation) {
                 navigator.geolocation.getCurrentPosition(position => {
 
                     console.log({
-                        userId: captain._id,
+                        userId: userId,
                         location: {
                             ltd: position.coords.latitude,
                             lng: position.coords.longitude
                         }
-                })
+                    })
 
                     socket.emit('update-location-captain', {
-                        userId: captain._id,
+                        userId: userId,
                         location: {
                             ltd: position.coords.latitude,
                             lng: position.coords.longitude
@@ -82,12 +82,42 @@ const CaptainHome = () => {
             }
         }
 
-        const locationInterval = setInterval(updateLocation, 10000)
+        const locationInterval = setInterval(updateLocation, 10000000)
         updateLocation()
-    
-      console.log("✅ join sent (user)", userId);
     }, [captain]);
+
+    socket.on("new-ride", (data) => {
+        console.log("🚕 NEW RIDE DATA:", data);
+        console.log("👤 USER DATA:", data?.user);
+
+        setRide(data);
+        setRidePopupPanel(true);
+    });
     
+    async function confirmRide() {
+        if (!ride || !(ride._id || ride.id)) {
+            console.log("❌ Ride not ready:", ride);
+            return;
+        }
+
+        const rideId = ride._id || ride.id;
+
+        try {
+            await axios.post(
+                `${import.meta.env.VITE_BASE_URL}/rides/confirm`,
+                { rideId },
+                {
+                    headers: {
+                        Authorization: `Bearer ${localStorage.getItem("captain-token")}`,
+                    },
+                }
+            );
+            setRidePopupPanel(false);
+            setConfirmRidePopupPanel(true);
+        } catch (err) {
+            console.error("❌ Confirm ride error:", err.response?.data || err.message);
+        }
+    }
 
     return (
         <div className='h-screen'>
@@ -109,6 +139,7 @@ const CaptainHome = () => {
                     ride={ride}
                     setRidePopupPanel={setRidePopupPanel}
                     setConfirmRidePopupPanel={setConfirmRidePopupPanel}
+                    confirmRide={confirmRide}
                 />
             </div>
             <div ref={confirmRidePopupPanelRef} className='fixed w-full h-screen z-10 bottom-0 translate-y-full bg-white px-3 py-10 pt-12'>

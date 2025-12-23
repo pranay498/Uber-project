@@ -7,7 +7,7 @@ const vehicleImages = {
 };
 
 const ConfirmRide = ({
- createRide,
+  createRide,
   pickup,
   destination,
   fare,
@@ -73,10 +73,12 @@ const ConfirmRide = ({
       {/* Confirm Button */}
       <button
         onClick={() => {
+          // Close confirm panel and show looking-for-driver panel (optimistic search)
           setConfirmRidePanel(false);
           setVehicleFound(true);
-          createRide()
 
+          // Create ride on server; server/captain will emit `ride-confirmed` when assigned
+          createRide();
         }}
         className="w-full mt-5 bg-green-600 text-white font-semibold p-3 rounded-lg"
       >

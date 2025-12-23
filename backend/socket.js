@@ -10,27 +10,26 @@ export const initializeSocket = (server) => {
     cors: {
       origin: "*",
       methods: ["GET", "POST"],
-      credentials: true,
     },
   });
 
   io.on(
     "connection",
     asyncHandler(async (socket) => {
-      console.log("🟢 Client connected:", socket.id);
+      console.log("Client connected:",socket.id);
 
       socket.on(
         "join",
-        asyncHandler(async ({ userId, userType }) => {
-          if (!userId || !userType) return;
+        asyncHandler(async (data) => {
+          const { userId, userType } = data;
+
+          console.log(`User ${userId} received from ${userType}`)
 
           if (userType === "user") {
             await User.findByIdAndUpdate(userId, {
               socketId: socket.id,
             });
-          }
-
-          if (userType === "captain") {
+          } else if (userType === "captain") {
             await Captain.findByIdAndUpdate(userId, {
               socketId: socket.id,
             });
@@ -40,46 +39,57 @@ export const initializeSocket = (server) => {
 
       socket.on(
         "update-location-captain",
-        asyncHandler(async ({ userId, location }) => {
+        asyncHandler(async (data) => {
+          console.log("📍 LOCATION EVENT DATA:", data);
+
+          const { userId, location } = data || {};
+
           if (
             !userId ||
             !location ||
-            location.lat == null ||
+            location.ltd == null ||
             location.lng == null
           ) {
+            console.log("❌ INVALID LOCATION PAYLOAD");
             return;
           }
 
           await Captain.findByIdAndUpdate(userId, {
             location: {
-              type: "Point",
-              coordinates: [location.lng, location.lat],
+              ltd: location.ltd,
+              lng: location.lng,
             },
           });
+
+          console.log(
+            `✅ Location updated | captain=${userId} | ltd=${location.ltd} | lng=${location.lng}`
+          );
         })
       );
-
       socket.on(
         "disconnect",
         asyncHandler(async () => {
-          await User.findOneAndUpdate(
-            { socketId: socket.id },
-            { socketId: null }
-          );
-
-          await Captain.findOneAndUpdate(
-            { socketId: socket.id },
-            { socketId: null }
-          );
-
-          console.log("🔴 Client disconnected:", socket.id);
+          console.log(`Client disconnected: ${socket.id}`);
         })
       );
     })
   );
 };
 
-export const sendMessageToSocketId = (socketId, event, data) => {
-  if (!io) return;
-  io.to(socketId).emit(event, data);
+export const sendMessageToSocketId = (socketId, messageObject) => {
+  console.log(messageObject);
+
+  if (io) {
+    io.to(socketId).emit(messageObject.event, messageObject.data);
+  } else {
+    console.log("Socket.io not initialized.");
+  }
+};
+
+export const broadcastEvent = (event, data) => {
+  if (io) {
+    io.emit(event, data);
+  } else {
+    console.log("Socket.io not initialized.");
+  }
 };

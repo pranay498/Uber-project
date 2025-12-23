@@ -25,3 +25,19 @@ export const getFareSchema = Joi.object({
   pickup: Joi.string().min(3).required(),
   destination: Joi.string().min(3).required(),
 });
+
+export const confirmRideSchema = Joi.object({
+  rideId: Joi.string()
+    .hex()
+    .length(24)
+    .required()
+    .messages({
+      "string.empty": "rideId is required",
+      "string.length": "Invalid rideId",
+    }),
+});
+
+export const startRideSchema = Joi.object({
+  rideId: Joi.string().required(),
+  otp: Joi.string().length(6).required(),
+});

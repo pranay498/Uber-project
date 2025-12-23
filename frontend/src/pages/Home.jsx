@@ -21,12 +21,18 @@ const Home = () => {
   const [destinationSuggestions, setDestinationSuggestions] = useState([]);
   const [vehicleType, setVehicleType] = useState("")
 
+
   const [panelOpen, setPanelOpen] = useState(false);
   const [vehiclePanel, setVehiclePanel] = useState(false);
   const [confirmRidePanel, setConfirmRidePanel] = useState(false);
   const [vehicleFound, setVehicleFound] = useState(false);
-  const [waitingForDriver, setWaitingForDriver] = useState(false);
+  const [waitingForDriver, setWaitingForDriver] = useState(true);
   const [activeField, setActiveField] = useState(null);
+  const [confirmedRide, setConfirmedRide] = useState(null);
+  const [rideConfirmed, setRideConfirmed] = useState(false);
+
+
+
 
   const { sendMessage, receiveMessage } = useContext(SocketContext)
   const { user, setUser } = useContext(UserDataContext);
@@ -38,7 +44,7 @@ const Home = () => {
   const vehicleFoundRef = useRef(null);
   const waitingForDriverRef = useRef(null);
 
-   const { socket } = useContext(SocketContext)
+  const { socket } = useContext(SocketContext)
 
   /* -------------------- FETCH SUGGESTIONS -------------------- */
   const fetchSuggestions = async (value, setSuggestions) => {
@@ -96,8 +102,6 @@ const Home = () => {
       alert("Failed to create ride");
     }
   };
-
-
   const handlePickupChange = (e) => {
     const value = e.target.value;
     setPickup(value);
@@ -116,9 +120,9 @@ const Home = () => {
     }
 
     try {
-      await fetchFare();        // ✅ fare fetch
-      setPanelOpen(false);      // ✅ location panel close
-      setVehiclePanel(true);    // ✅ vehicle panel open
+      await fetchFare();
+      setPanelOpen(false);
+      setVehiclePanel(true);
     } catch (error) {
       console.error(error);
     }
@@ -171,28 +175,75 @@ const Home = () => {
 
   useGSAP(() => {
     gsap.to(vehicleFoundRef.current, {
-      transform: vehicleFound ? "translateY(0)" : "translateY(100%)",
+      y: vehicleFound ? "0%" : "100%",
+      duration: 0.3,
     });
   }, [vehicleFound]);
 
   useGSAP(() => {
     gsap.to(waitingForDriverRef.current, {
-      transform: waitingForDriver ? "translateY(0)" : "translateY(100%)",
+      y: waitingForDriver ? "0%" : "100%",
+      duration: 0.3,
     });
   }, [waitingForDriver]);
 
-useEffect(() => {
-  if (!user || !(user.id || user._id)) return;
 
-  const userId = user.id || user._id;
 
-  socket.emit("join", {
-    userId,
-    userType: "user",
-  });
+  /* -------------------- UseEffect ANIMATIONS -------------------- */
+  useEffect(() => {
+    if (!user || !(user.id || user._id)) return;
 
-  console.log("✅ join sent (user)", userId);
-}, [user]);
+    const userId = user.id || user._id;
+
+    socket.emit("join", {
+      userId,
+      userType: "user",
+    });
+
+    console.log("✅ join sent (user)", userId);
+  }, [user]);
+
+  useEffect(() => {
+    if (!socket) return;
+
+    const handler = (ride) => {
+      console.log("🚗 Ride confirmed:", ride);
+
+      setConfirmedRide(ride);     // full ride + captain
+      setRideConfirmed(true);
+
+      setVehicleFound(false);     // close looking panel
+      setWaitingForDriver(true);  // open waiting panel
+    };
+
+    socket.on("ride-confirmed", handler);
+
+    return () => socket.off("ride-confirmed", handler);
+  }, [socket]);
+
+
+  /* -------------------- Console.log ANIMATIONS -------------------- */
+  useEffect(() => {
+    console.log("vehicleFound:", vehicleFound);
+  }, [vehicleFound]);
+
+  useEffect(() => {
+    console.log("waitingForDriver:", waitingForDriver);
+  }, [waitingForDriver]);
+
+  useEffect(() => {
+    console.log({ vehicleFound, waitingForDriver, rideConfirmed });
+  }, [vehicleFound, waitingForDriver, rideConfirmed]);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setConfirmedRide({ fake: true });
+      setWaitingForDriver(true);
+      setVehicleFound(false);
+    }, 3000);
+  }, []);
+
+
 
 
   /* -------------------- JSX -------------------- */
@@ -299,8 +350,7 @@ useEffect(() => {
 
       <div
         ref={vehicleFoundRef}
-        className="fixed w-full z-10 bottom-0 translate-y-full bg-white px-3 py-6 pt-12"
-      >
+        className="fixed w-full z-20 bottom-0 bg-white px-3 py-6 pt-12">
         <LookingForDriver
           pickup={pickup}
           destination={destination}
@@ -311,9 +361,13 @@ useEffect(() => {
 
       <div
         ref={waitingForDriverRef}
-        className="fixed w-full z-10 bottom-0 translate-y-full bg-white px-3 py-6 pt-12"
-      >
-        <WaitingForDriver />
+        className="fixed w-full z-30 bottom-0 bg-white px-3 py-6 pt-12" >
+        <WaitingForDriver
+          ride={confirmedRide}
+          setVehicleFound={setVehicleFound}
+          setWaitingForDriver={setWaitingForDriver}
+          waitingForDriver={waitingForDriver}
+        />
       </div>
     </div>
   );

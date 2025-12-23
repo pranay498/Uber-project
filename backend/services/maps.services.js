@@ -84,21 +84,17 @@ export const getAutoCompleteSuggestions = async (input) => {
   });
 
   return response.data
-    .map((item) => item.display_name)
-    .filter(Boolean);
+    .map((item) => item.display_name);
 };
 
-export const getCaptainsInTheRadius = asyncHandler(
-  async (ltd, lng, radius) => {
-    // ⚠️ MongoDB expects [lng, lat]
-    const captains = await Captain.find({
-      location: {
-        $geoWithin: {
-          $centerSphere: [[lng, ltd], radius / 6371], // radius in KM
-        },
+export const getCaptainsInTheRadius = async (ltd, lng, radius) => {
+  const captains = await Captain.find({
+    location: {
+      $geoWithin: {
+        $centerSphere: [[ltd ,lng], radius / 6371],
       },
-    });
+    },
+  });
 
-    return captains;
-  }
-);
+  return captains || []
+};
